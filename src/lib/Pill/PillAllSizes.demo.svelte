@@ -1,6 +1,6 @@
 <script lang="ts">
-  import '../../../styles/story-decorators.css';
-  import Pill from './Pill.svelte';
+  import "../../styles/story-decorators.css";
+  import Pill from "./Pill.svelte";
 </script>
 
 <div class="story-decorator-row">

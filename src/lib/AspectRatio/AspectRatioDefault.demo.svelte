@@ -1,6 +1,6 @@
 <script lang="ts">
-  import '../../../styles/story-decorators.css';
-  import AspectRatio from './AspectRatio.svelte';
+  import "../../styles/story-decorators.css";
+  import AspectRatio from "./AspectRatio.svelte";
 
   let { ratio = 16 / 9 }: { ratio?: number } = $props();
 </script>

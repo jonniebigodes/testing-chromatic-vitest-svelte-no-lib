@@ -1,12 +1,12 @@
 <script lang="ts">
-  import '../../../styles/story-decorators.css';
-  import AspectRatio from './AspectRatio.svelte';
+  import "../../styles/story-decorators.css";
+  import AspectRatio from "./AspectRatio.svelte";
 
   let {
     ratio = 16 / 9,
-    label = '16:9',
-    gradient = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-    textColor = 'white',
+    label = "16:9",
+    gradient = "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    textColor = "white",
   }: {
     ratio?: number;
     label?: string;
