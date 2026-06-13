@@ -69,13 +69,13 @@ export default defineConfig({
               {
                 browser: "chromium",
               },
-              // {
-              //   browser: "firefox",
-              // },
+              {
+                browser: "firefox",
+              },
 
-              // {
-              //   browser: "webkit",
-              // },
+              {
+                browser: "webkit",
+              },
             ],
           },
         },
